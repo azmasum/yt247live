@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     # প্রতি ৫ ঘন্টা পর পর
-    - cron: '0 */5 * * *'
+#    - cron: '0 */5 * * *'
     # বাংলাদেশ রাত ৮ টায় চলবে
-    - cron: '0 14 * * *'
+#    - cron: '0 14 * * *'
 
 concurrency:
   group: youtube-live-final
